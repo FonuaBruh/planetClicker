@@ -14,15 +14,15 @@ function setScore(score) {
 
 function setImage() {
     const scoreReward = [
-        { score: 250, image: 'assets/planet01.png' },
-        { score: 500, image: 'assets/planet02.png' },
-        { score: 1000, image: 'assets/planet03.png' },
-        { score: 2000, image: 'assets/planet04.png' },
-        { score: 4000, image: 'assets/planet05.png' },
-        { score: 16000, image: 'assets/planet06.png' },
-        { score: 32000, image: 'assets/planet07.png' },
-        { score: 64000, image: 'assets/planet08.png' },
-        { score: 100000, image: 'assets/planet09.png' }
+        { score: 250, image: '/assets/planets/planet01.png' },
+        { score: 500, image: '/assets/planets/planet02.png' },
+        { score: 1000, image: '/assets/planets/planet03.png' },
+        { score: 2000, image: '/assets/planets/planet04.png' },
+        { score: 4000, image: '/assets/planets/planet05.png' },
+        { score: 16000, image: '/assets/planets/planet06.png' },
+        { score: 32000, image: '/assets/planets/planet07.png' },
+        { score: 64000, image: '/assets/planets/planet08.png' },
+        { score: 100000, image: '/assets/planets/planet09.png' }
     ];
 
     const currentScore = getScore();
