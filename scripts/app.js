@@ -6,7 +6,8 @@ const $refresh = document.querySelector('#refresh')
 $refresh.addEventListener('click', (event) => {
     if (confirm("Вы хотите сбросить очки?")) {
         localStorage.clear();
-        $score.textContent = 0;
+        setScore(0);
+        location.reload();
 
         alert("Очки сброшены!");
     }
