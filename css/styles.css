@@ -22,6 +22,36 @@ body {
   margin-right: 14px;
 }
 
+.game {
+  max-width: 1440px;
+}
+
+.game-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 38px;
+  background: linear-gradient(180deg, #e8c547 0%, #ef882b);
+  border-radius: 25px;
+  user-select: none;
+  margin-bottom: 25px;
+}
+
+.refresh-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 38px;
+  background: linear-gradient(180deg, #e8c547 0%, #ef882b);
+  border-radius: 25px;
+  margin-top: 30px;
+  user-select: none;
+  cursor: pointer;
+}
 .score {
   color: #fff;
   text-align: center;

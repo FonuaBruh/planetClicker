@@ -1,6 +1,16 @@
 const $circle = document.querySelector('#circle')
 const $score = document.querySelector('#score')
+const $refresh = document.querySelector('#refresh')
 
+
+$refresh.addEventListener('click', (event) => {
+    if (confirm("Вы хотите сбросить очки?")) {
+        localStorage.clear();
+        $score.textContent = 0;
+
+        alert("Очки сброшены!");
+    }
+})
 
 function start() {
     setScore(getScore())
